@@ -1,0 +1,20 @@
+import logging
+import asyncio
+from aiogram import Bot, Dispatcher, types
+
+TOKEN = "7793220413: AAFQkchWGM3B4RL lUrDf
+11FYzeonN1rljGo"
+
+bot = Bot(token=TOKEN)
+dp = Dispatcher()
+
+@dp.message()
+async def echo(message: types.Message):
+    await message.answer("WELCOME DEEP CARD")
+
+async def main():
+    logging.basicConfig(level=logging.INFO)
+    await dp.start_polling(bot)
+
+if name == "__main__":
+    asyncio.run(main())
