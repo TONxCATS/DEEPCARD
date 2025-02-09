@@ -6,8 +6,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-TOKEN = os.getenv("7793220413: AAFQkchWGM3B4RL lUrDf
-11FYzeonN1rljGo")
+TOKEN = os.getenv("7793220413:AAFQkchWGM3B4RLlUrDf11FYzeonN1rljGo")
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
