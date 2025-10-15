@@ -1,2 +1,1 @@
-# DEEPCARD
-DEEP CARD 
+# DeepCardBot
