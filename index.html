@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DeepCard — Web3 Banking</title>
+  <meta name="description" content="DeepCard — transparent Web3 banking with AI-guarded treasury (GPT), multisig timelock and LP lock.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/logo.svg">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav glass">
+    <div class="container nav__row">
+      <a class="brand" href="#"><img src="assets/logo.svg" alt="DeepCard" class="logo"> DeepCard</a>
+      <nav class="nav__links">
+        <a href="#about">About</a>
+        <a href="#gpt">Why GPT</a>
+        <a href="#roadmap">Roadmap</a>
+      </nav>
+      <div class="nav__cta">
+        <a class="chip" href="https://t.me/DeepCardOfficial" target="_blank" rel="noopener">Telegram</a>
+        <button id="buyBtn" class="cta3" type="button">Buy</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="bg"></div>
+      <div class="container hero__inner">
+        <h1>Web3 Banking without Banks</h1>
+        <p class="lead">Transparent contracts. Multisig + timelock. LP locked. AI-guarded by <b>GPT — Guardian Protocol Technology</b>.</p>
+        <div class="hero__cta">
+          <a class="cta1" href="#about">Learn more</a>
+          <a class="cta2" href="https://t.me/DeepCardOfficial" target="_blank" rel="noopener">Join Telegram</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container grid-3">
+        <article class="card"><h3>Transparent</h3><p>100% on-chain flows with public dashboards.</p></article>
+        <article class="card"><h3>Secure</h3><p>Gnosis Safe multisig with timelock + audits.</p></article>
+        <article class="card"><h3>Useful</h3><p>Planned NFC / Apple Pay / Google Pay support.</p></article>
+      </div>
+    </section>
+
+    <section id="gpt" class="section section--alt">
+      <div class="container">
+        <h2>Why GPT (Guardian Protocol Technology)?</h2>
+        <ul class="check">
+          <li>AI anomaly detection (anti‑scam / anti‑rug)</li>
+          <li>Automated treasury policy and reports</li>
+          <li>User assistant that explains every step</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="roadmap" class="section">
+      <div class="container timeline">
+        <div class="titem"><span>Q4’25</span><p>Presale v1, audit, community.</p></div>
+        <div class="titem"><span>Q1’26</span><p>DEX listing, LP lock, claim open.</p></div>
+        <div class="titem"><span>Q2’26</span><p>Apple/Google Pay integration.</p></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__row">
+      <p>© <span id="yr"></span> DeepCard</p>
+      <p><a href="https://github.com/" target="_blank" rel="noopener">GitHub</a></p>
+    </div>
+  </footer>
+
+  <div id="modal" class="modal" aria-hidden="true">
+    <div class="modal__box glass">
+      <h3>Soon</h3>
+      <p>Presale isn’t live yet. Join Telegram to get notified.</p>
+      <a class="cta3" href="https://t.me/DeepCardOfficial" target="_blank" rel="noopener">Open Telegram</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
