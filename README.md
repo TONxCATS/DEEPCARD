@@ -1,1 +1,1 @@
-# DeepCardBot
+# DeepCard
